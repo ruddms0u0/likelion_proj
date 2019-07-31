@@ -1,0 +1,72 @@
+
+header{
+    background-color: white;
+    display: flex !important;
+    align-items: center !important;
+}
+
+#logo-p{
+    margin-top: 30px;
+}
+
+#logo{
+    background-color: white; 
+    color:black;
+    width : 200px;
+    height: 100px;
+    margin: 30px;
+    font-size: 200%;
+    font-family: 'Russo One';
+    text-align: center;
+    font-weight: 700;
+}
+
+#search{
+    width : 500px;
+    height: 50px;
+    text-align: center;
+    flex-grow: 2;
+}
+#login{
+    background-color: rgb(187, 184, 184); 
+    color: black;
+    width : 200px;
+    height: 100px;
+    margin: 30px;
+    font-size: 200%;
+    text-align: center;
+    font-weight: 700;
+}
+
+#list{
+    display: flex;
+}
+#list-group{
+    width: 400px;
+}
+
+#photo{
+    background-color: rgb(217, 255, 0); 
+    color:white;
+    width : 800px;
+    height: 450px;
+    font-size: 200%;
+    text-align: center;
+    font-weight: 700;
+}
+
+#ranking{
+    background-color: lightseagreen; 
+    color:white;
+    width : 400px;
+    height: 450px;
+    font-size: 200%;
+    text-align: center;
+    font-weight: 700;
+}
+
+#nav{
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+}

@@ -1,0 +1,86 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="kr">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>LikeLion_DGIST</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
+            a:link{color:black; text-decoration: none;}
+            a:visited{color:black; text-decoration: none;}
+            a:hover{color:rgb(124, 123, 121),; text-decoration: none;}
+        </style>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="static/blog/home.css?ver=4">
+
+    </head>
+    <body>
+        <header>       
+            <div id = "logo">  
+                <p id = "logo-p">Nemesis</p>
+            </div>
+            <div id = "search">
+                <textarea rows = "1" name = "search_key"></textarea>
+                <input type="submit" value = "search!">
+            </div>
+            <div id = "login">
+                <a href="login/login/" id = "logo-p"> login </a>
+            </div>
+        </header>
+        <nav class="nav nav-pills flex-column flex-sm-row" id = "nav">
+                <a class="flex-sm-fill text-sm-center nav-link" href="#">전체 카테고리</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="#">신제품</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="#">베스트</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="#">명예의전당</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="#">이벤트</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="edit/">글쓰기</a>
+<!--
+                <a class="flex-sm-fill text-sm-center nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            -->  
+        </nav>
+        <div id="list">
+                <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action">네메시스에 오신것을 환영합니다</a>
+                      
+                        <a href="#" class="list-group-item list-group-item-action list-group-item-primary">가구 수납</a>
+                        <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">패브릭/인테리어</a>
+                        <a href="#" class="list-group-item list-group-item-action list-group-item-success">생활/욕실</a>
+                        <a href="#" class="list-group-item list-group-item-action list-group-item-danger">키친</a>
+                        <a href="#" class="list-group-item list-group-item-action list-group-item-warning">디지털/가전</a>
+                        <a href="#" class="list-group-item list-group-item-action list-group-item-info">헬스케어</a>
+                        <a href="#" class="list-group-item list-group-item-action list-group-item-light">뭘할까</a>
+                        <a href="#" class="list-group-item list-group-item-action list-group-item-dark">생각해보자각각</a>
+                </div>
+                <div id = "photo">
+                    <img src = "static/blog/dgist.png">
+                </div>
+                <div id = "ranking">
+                    <p> this is rank </p>
+                </div>
+        </div>
+
+
+<!---
+        <section>
+            <p>여기서 부터는 기사가 들어갑니다.</p>
+            <article>
+                <p>여기는 첫번째 기사입니다.</p>
+            </article>
+            <article>
+                <p>여기는 두번째 기사입니다.</p>
+            </article>
+        </section>
+        <aside>
+            <p>여기에 광고가 들어갑니다.</p>
+        </aside>
+        -->
+        <footer>
+            <p>Copyright@2019 LikeLion_DGIST</p>
+        </footer>
+    </body>
+</html>
+
+
+</html>
